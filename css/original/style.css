@@ -278,10 +278,10 @@ header .header_nav_mobile ul li a {
   padding: 1vw 4vw 1vw 5vw;
 }
 .main_info_2 .main-info_about {
-  font-size: 20px;
-  line-height: 30px;
-  padding: 0 2vw 0 3vw;
-  margin-bottom: 57px;
+font-size: 20px;
+line-height: 30px;
+padding: 0 80px 0 80px;
+margin-bottom: 57px;
 }
 .basic {
   background: #eeeeee;
@@ -316,7 +316,7 @@ h5
 .basic .basic_block p {
  font-size: 14px;
  font-weight: 300;
- padding: 0 30px 0 30px;
+ padding: 0 28px 0 30px;
  margin: 0;
 }
 .basic .basic_block .typical-button {
@@ -822,7 +822,7 @@ footer.contacts .send-message_form .form-group {
 .supports_table {
   border-collapse: collapse;
   table-layout: fixed;
-  font-family: 'Open Sans', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   width: 100%;
   margin: 0 auto;
@@ -915,8 +915,8 @@ footer.contacts .send-message_form .form-group {
     font-weight: 700;
   }
   .main_info_2 .main-info_about {
-    font-size: 16px;
-    padding: 0 1vw 0 6vw;
+  font-size: 16px;
+  padding: 0 50px 0 50px;
   }
   .basic .basic_block .basic_block_img img {
    height: 100%;
@@ -953,6 +953,7 @@ footer.contacts .send-message_form .form-group {
     font-weight: 600;
   }
   .main_info_2 .main-info_about{
+    padding: 0;
     margin-bottom: 35px;
   }
   .basic {
@@ -1273,6 +1274,13 @@ footer.contacts .send-message_form .typical-button {
   font-weight: bold;
 }
 }
+@media (max-width: 576px) {
+  .main_info_2 .main-info_about {
+    padding: 0 30px 0 30px;
+  }
+
+}
+
 /* Extra small devices Phones (<768px) */
 @media (max-width: 480px) {
   .banner .header,
@@ -1364,6 +1372,9 @@ header {
 .modal-call .modal-content .modal-body {
   padding: 40px 15px;
 }
+.photo_horizontal {
+    max-height: 160px;
+}
 }
 /* Extra small devices Phones (<768px) */
 @media (max-width: 320px) {
@@ -1405,6 +1416,9 @@ header {
   height: 216px;
   background-size: contain !important;
 }
+.photo_horizontal {
+    max-height: 150px;
+}
 }
 /* Extra small devices Phones (<768px) */
 @media (max-width: 294px) {
@@ -1437,5 +1451,8 @@ header {
  }
  .colors .typical-button {
   padding: 12px 20px;
+}
+.photo_horizontal {
+    max-height: 140px;
 }
 }

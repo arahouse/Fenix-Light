@@ -4,15 +4,19 @@ if (isAjax() === false) {
     die("Not ajax request");
 }
 
-$title = "Заявка с сайта ОПН";
+$title = "Заявка с сайта Композитные опросы освещения";
+$email = '<b>Email:</b> ' . $_POST["call_form_email"];
 $name = '<b>Имя:</b> ' . $_POST["call_form_name"];
-$phone = '<b>Сообщение:</b> ' . $_POST["call_form_phone"];
+$phone = '<b>Телефон:</b> ' . $_POST["call_form_phone"];
+$message = '<b>Сообщение:</b> ' . $_POST["call_form_message"];
 
 $letter =
+    $email . '<br/>' .
     $name . '<br/>' .
-    $phone. '<br/>';
+    $phone. '<br/>' .
+    $message . '<br/>';
 
-echo json_encode(utf8mail("fam@glos-trust.com", $title, $letter));
+echo json_encode(utf8mail("arahousemg@gmail.com", $title, $letter));
 
 function utf8mail($to, $s, $body, $fromName = "site.com", $fromA = "site.com", $reply = "site.com")
 {

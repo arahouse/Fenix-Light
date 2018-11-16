@@ -7,7 +7,7 @@
 
     <title>Композитные опоры освещения</title>
     <meta name="description" content="Композитные опоры освещения">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="Композитные опоры освещения"/>
     <meta property="og:image" content="/images/icons/logo_fenix.png"/>
     <meta name="cmsmagazine" content="e3ff9d1a24129546a93b27de22647307"/>
@@ -136,14 +136,12 @@
         <div class="about" id="about">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col col-xl-11 main_info justify-content-center align-items-center">
+                    <div class="сol-sm-11 main_info justify-content-center align-items-center">
                         <p class="main-info_about-border">Композитный материал — это достойная альтернатива ранее применяемым традиционным материалам, таким как дерево, сталь, алюминий и железобетон, многократно превосходящая их по своим эксплуатационным параметрам. Он применяется при производстве опор наружного освещения.</p>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col col-xl-10 main_info_2 justify-content-center align-items-center">
+                        <div class="col-sm-10 main_info_2 justify-content-center">
                             <p class="main-info_about">Композит — многокомпонентный материал с полимерной матрицей на основе эпоксидной или полиэфирной смолы, армированный волокном: стеклянным, базальтовым или углеволокном.</p>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -574,7 +572,7 @@
             <div class="col-lg-5 tac">
                 <a href="tel:+73833442560" class="contacts_link">+7 (383) 344-25-60</a>
                 <a href="mailto:market@fenix-88.ru" class="contacts_link" target="_blank">market@fenix-88.ru</a>
-                <p class="contacts_text">Отдел продаж:<a href="http://go.2gis.com/xevcm8" target="_blank">ул. Сибиряков-Гвардейцев, 51/3, Новосибирск</a></p>
+                <p class="contacts_text">Отдел продаж: <a href="http://go.2gis.com/xevcm8" target="_blank">ул. Сибиряков-Гвардейцев, 51/3, Новосибирск</a></p>
             </div>
             <div class="col-lg-5">
                 <div class="callback_loading"></div>
@@ -583,13 +581,13 @@
                 <div class="error-message">Извините, что-то пошло не так. Попробуйте ещё раз.</div>
                 <form class="send-message_form" action="/send_message.php">
                     <div class="form-group">
-                        <input type="email" name="send-message_form_email" placeholder="Ваш E-mail" required />
+                        <input type="email" name="call_form_email" placeholder="Ваш E-mail" required />
                     </div>
                     <div class="form-group">
-                        <input type="text" name="send-message_form_name" placeholder="Ваше имя" required />
+                        <input type="text" name="call_form_name" placeholder="Ваше имя" required />
                     </div>
                     <div class="form-group">
-                        <textarea name="send-message_form_message" placeholder="Сообщение" rows="4" required ></textarea>
+                        <textarea name="call_form_message" placeholder="Сообщение" rows="4" required ></textarea>
                     </div>
                     <div class="form-group">
                         <input type="submit" class="send-message_submit typical-button" value="Отправить" />
