@@ -1,0 +1,572 @@
+/* Large devices Desktops (≥1200px) */
+@media (max-width: 1199px) {
+  header {
+    .header-top {
+      .menu li {
+        padding: 0 12px;
+      }
+    }
+  }
+
+  .about {
+    .grid_table {
+      .table_row {
+        grid-template-columns: 300px 188px 452px;
+        -ms-grid-columns: 300px 188px 452px;
+      }
+      .d-flex-around {
+        align-items: center;
+      }
+    }
+  }
+
+  .basic {
+    .basic_block {
+      .basic_block_img {
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .basic {
+    .grid_table {
+      .table_row {
+        grid-template-columns: 180px 445px 315px;
+        -ms-grid-columns: 180px 445px 315px;
+
+      }
+    }
+  }
+}
+
+/* Medium devices Desktops (≥992px) */
+@media (max-width: 991px) {
+  .mb-sm-3 {
+    margin-bottom: 3em;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    .header-top {
+      .header_nav_mobile_burger {
+        display: inline-block;
+      }
+    }
+  }
+
+  .banner {
+    h1 {
+      padding: 0 20px;
+    }
+  }
+
+  .about {
+    .grid_table {
+      .table_row {
+        grid-template-columns: 170px 168px 383px;
+        -ms-grid-columns: 170px 168px 383px;
+      }
+    }
+    .statistics {
+      padding: 40px 0 20px;
+      font-size: 1em;
+      p {
+        font-size: 16px;
+        span {
+          width: 15px;
+        }
+      }
+      .yellow-line {
+        &.first {
+          margin-bottom: 15px;
+        }
+      }
+      .red-line {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .basic {
+    .basic_block {
+      .basic_block_img {
+        span {
+          margin-bottom: 20px;
+        }
+      }
+      p {
+        margin-bottom: 20px;
+      }
+    }
+    .grid_table {
+      .table_row {
+        grid-template-columns: 130px 385px 205px;
+        -ms-grid-columns: 130px 385px 205px;
+      }
+    }
+  }
+
+  .stage_work {
+    padding: 80px 0 40px;
+    p {
+      padding: 0;
+      margin-bottom: 3em;
+    }
+  }
+
+  .projects {
+    .carousel {
+      .slick-prev {
+        left: 8px;
+      }
+      .slick-next {
+        right: 8px;
+      }
+      .slide {
+        .image {
+          height: 483px;
+        }
+      }
+    }
+  }
+
+  .callback {
+    &.callback_large {
+      padding: 15px 15px;
+    }
+    .d-flex {
+      flex-wrap: wrap;
+    }
+    span, a {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 927px) {
+  .callback {
+    &.callback_large {
+      .d-flex {
+        flex-direction: column;
+      }
+      .callback_btn {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+/* Small devices Tablets (≥768px) */
+@media (max-width: 767px) {
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-scrollbar:vertical {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar:horizontal {
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px solid #eee;
+  }
+
+  .text-xs-left {
+    text-align: left !important;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .banner {
+    height: 530px;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .about {
+    h2 {
+      margin-bottom: 25px;
+    }
+    .statistics {
+      padding: 40px 20px 20px;
+      span {
+        margin-bottom: 20px;
+        display: block;
+      }
+      p {
+        span {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .grid_table {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: auto;
+  }
+
+  .about {
+    .table_relative {
+      position: relative;
+      .grid_table {
+        padding-bottom: 0;
+        margin-bottom: 40px;
+        .table_head {
+          .table_row {
+            &:before {
+              content: 'Наименование ВЛ-110кВ';
+              position: absolute;
+              width: 170px;
+              background: #42376f;
+              height: 109px;
+              border-right: 1px solid #fff;
+              padding: 15px 20px 10px;
+            }
+          }
+        }
+        .table_body, .table_footer {
+          .table_row {
+            .table_item {
+              &.mob_fix:before {
+                position: absolute;
+                width: 170px;
+                background: #fff;
+                height: 62px;
+                left: 0;
+                border-right: 1px solid #fff;
+                content: "";
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+        .table_body {
+          .table_row {
+            .table_item {
+              &.mob_fix_1:before {
+                content: "Губинская - Новогодняя I, II ц.";
+                top: 129px;
+              }
+              &.mob_fix_2:before {
+                content: "Контур – Ай – Пимская I, II ц.";
+                top: 192px;
+              }
+              &.mob_fix_3:before {
+                content: "Лас-Еганская - Прогресс I, II ц.";
+                top: 255px;
+              }
+              &.mob_fix_4:before {
+                content: "Холмогорская–Пуль-Яха";
+                bottom: 200px;
+              }
+              &.mob_fix_5:before {
+                content: "Муравленковская-Сугмутская I, II ц.";
+                bottom: 137px;
+              }
+              &.mob_fix_6:before {
+                content: "Урай-Новая I, II ц.";
+                bottom: 95px;
+                height: 41px;
+              }
+            }
+          }
+        }
+        .table_footer {
+          .table_row {
+            .table_item {
+              &.mob_fix_7:before {
+                content: "ИТОГО";
+                bottom: 53px;
+                background: #e9e3ee;
+                height: 41px;
+              }
+              &.mob_fix_8:before {
+                content: "В среднем в год";
+                bottom: 12px;
+                background: #d8cbe1;
+                height: 41px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .about_effect {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .basic {
+    .table_relative {
+      position: relative;
+      .grid_table {
+        .table_head {
+          .table_row {
+            &:before {
+              content: '';
+              position: absolute;
+              width: 130px;
+              background: #42376f;
+              height: 98px;
+              border-right: 1px solid #fff;
+            }
+          }
+        }
+        .table_body {
+          .table_row {
+            .table_item {
+              &.mob_fix:before {
+                position: absolute;
+                width: 130px;
+                background: #eee;
+                height: 41px;
+                left: 0;
+                padding-top: 7px;
+                border-right: 1px solid #fff;
+                content: "";
+              }
+              &.mob_fix_1:before {
+                content: "35 кВ";
+                top: 100px;
+              }
+              &.mob_fix_2:before {
+                content: "110 кВ";
+                top: 144px;
+              }
+              &.mob_fix_3:before {
+                content: "150 кВ";
+                top: 188px;
+              }
+              &.mob_fix_4:before {
+                content: "220 кВ";
+                bottom: 101px;
+              }
+              &.mob_fix_5:before {
+                content: "330 кВ";
+                bottom: 57px;
+              }
+              &.mob_fix_6:before {
+                content: "500 кВ";
+                bottom: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .projects {
+    background-size: cover !important;
+    .carousel {
+      .slide {
+        .row {
+          margin: 0;
+        }
+        .image {
+          order: 2;
+          img {
+            width: 100%;
+          }
+        }
+        .text {
+          .header-slide {
+            padding: 20px;
+            order: 1;
+          }
+        }
+      }
+    }
+  }
+
+  .callback {
+    text-align: center;
+  }
+
+  .why_we {
+    p {
+      margin-bottom: 3em;
+    }
+  }
+
+  .modal-call {
+    font-size: 16px;
+  }
+
+  footer.contacts {
+    .contact-box {
+      border-radius: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+/* Extra small devices Phones (<768px) */
+@media (max-width: 480px) {
+  .hidden-col {
+    display: none;
+  }
+
+  .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .mb-col-2 {
+    margin-bottom: 3em;
+  }
+
+  header {
+    padding: 15px 0;
+  }
+
+  .banner {
+    height: 400px;
+    h1 {
+      font-size: 30px;
+      line-height: 55px;
+    }
+  }
+
+  .about {
+    padding: 25px 0 50px;
+    .about_effect {
+      span {
+        padding: 0;
+      }
+    }
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 1em;
+    }
+  }
+
+  .basic {
+    padding: 50px 0 60px;
+    h3 {
+      font-size: 18px;
+    }
+    .basic_block {
+      padding: 0 0 40px;
+      &:after {
+        margin-top: 35px;
+      }
+    }
+  }
+
+  .callback {
+    padding: 20px 15px;
+    span {
+      font-size: 24px;
+    }
+    .callback_btn {
+      margin-left: 0;
+    }
+  }
+
+  .stage_work {
+    padding: 50px 0 20px;
+    p {
+      margin-bottom: 2em;
+    }
+  }
+
+  .why_we {
+    padding: 50px 0 0;
+  }
+
+  .projects {
+    .carousel {
+      .slide {
+        .image {
+          height: 370px;
+        }
+      }
+    }
+  }
+
+  footer.contacts {
+    .contact-box {
+      padding: 40px;
+      a {
+        font-size: 24px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .modal-call {
+    .modal-content {
+      .modal-body {
+        padding: 40px 15px;
+      }
+    }
+  }
+}
+
+/* Extra small devices Phones (<768px) */
+@media (max-width: 320px) {
+  #push {
+    height: 109px;
+  }
+
+  header {
+    height: 109px;
+  }
+
+  .projects {
+    .carousel {
+      .slide {
+        .image {
+          height: 216px;
+          background-size: contain !important;
+        }
+      }
+    }
+  }
+}
+
+/* Extra small devices Phones (<768px) */
+@media (max-width: 294px) {
+  #push {
+    display: none;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .banner {
+    h1 {
+      font-size: 20px;
+      line-height: 45px;
+    }
+  }
+}

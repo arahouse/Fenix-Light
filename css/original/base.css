@@ -1,0 +1,34 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    height: 100%;
+}
+
+#page {
+    height: auto !important;
+}
+
+#push {
+    height: 126px;
+}
+
+#alarm {
+    display: none;
+    background-color: #fdbab9;
+}
+
+#alarm-close {
+    background-image: url('../../images/icons/alarm-close.png');
+    float: right;
+    margin-top: -26px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    position: relative;
+    z-index: 4;
+}
+
