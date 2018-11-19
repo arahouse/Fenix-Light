@@ -437,6 +437,7 @@ h5
   margin: 15px;
   border-radius: 6px;
   border: 3px #fff solid;
+  max-width: 100%;
 }
 .photo:hover {
   border:3px #2087dd solid;
@@ -1345,6 +1346,7 @@ header {
 .p_obj {
   font-size: 17px;
 } 
+.banner .typical-button,
 .colors .typical-button {
   padding: 12px 45px;
 }
@@ -1409,7 +1411,7 @@ header {
   padding: 12px 30px;
 }
 .basic .basic_block .typical-button:last-child {
-  margin: 10px 5px 5px 30px;
+  margin: 10px 5px 20px 30px;
   padding: 12px 50px;
 }
 .projects .carousel .slide .image {

@@ -16,7 +16,7 @@ $letter =
     $phone. '<br/>' .
     $message . '<br/>';
 
-echo json_encode(utf8mail("arahousemg@gmail.com", $title, $letter));
+echo json_encode(utf8mail("market@fenix-88.ru", $title, $letter));
 
 function utf8mail($to, $s, $body, $fromName = "site.com", $fromA = "site.com", $reply = "site.com")
 {
